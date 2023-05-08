@@ -59,6 +59,79 @@ wet:neblig a skos:Concept ;
      skos:example "Regenwald"@de ;
      skos:narrower  wet:diesig .
 
+    wet:diesig a skos:Concept ; 
+
+    skos:prefLabel "diesig"@de, "hazy"@en ;
+
+    skos:definition "Himmel ist nicht klar"@de ;
+
+    skos:inScheme wet:  .
+
+
+wet:sonnig a skos:Concept ;
+
+    skos:topConceptOf wet: ;
+
+    skos:prefLabel "sonnig "@de, "sunny"@en ;
+
+    skos:definition "Die Sonne scheint und es ist hell"@de ;
+
+    skos:example "vorwiegend blauer Himmel"@de ;
+
+    skos:narrower wet:strahlender_Sonnenschein .
+
+
+    wet:strahlender_Sonnenschein a skos:Concept ;
+
+    skos:inScheme wet: ;
+
+    skos:prefLabel "strahlender Sonnenschein"@de, "extremly sunny"@en ;
+
+    skos:definition "Die Sonne scheint besonders hell"@de ;
+
+    skos:example "immer blauer Himmel"@de .
+
+
+wet:regnerisch a skos:Concept ;
+
+    skos:topConceptOf wet: ;
+
+    skos:prefLabel "regnerisch"@de, "rainy"@en ;
+
+    skos:definition "Wasser fällt  vom Himmel"@de ;
+
+    skos:example "Nieselregen"@de .
+
+
+wet:stuermisch a skos:Concept ;
+
+    skos:topConceptOf wet: ;
+
+    skos:prefLabel "stürmisch"@de, "stormy"@en ;
+
+    skos:definition "Es ist sehr windig"@de ;
+
+    skos:example "Orkan"@de
+
+    .
+
+
+
+    skos:definition "Wolken stehen am Himmel"@de ;
+
+    skos:example "Cumulus-Wolken"@de .
+
+
+wet:neblig a skos:Concept ;
+
+    skos:topConceptOf wet: ;
+
+    skos:prefLabel "neblig"@de, "foggy"@en ;
+
+     skos:definition "beeinträchtigte Fernsicht"@de ;
+     skos:example "Regenwald"@de ;
+     skos:narrower  wet:diesig .
+
 wet:diesig a skos:Concept ; 
 
     skos:topConceptOf wet: ;
